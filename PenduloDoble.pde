@@ -7,8 +7,6 @@ float a2 = -HALF_PI;
 float va1 = 0; 
 float va2 = 0; 
 float g = 1; 
-float px2 = -1; 
-float py2 = -1;
 float cx, cy; 
 
 void setup() {
@@ -45,6 +43,4 @@ void draw() {
   va2 += na2;
   a1 += va1;
   a2 += va2;
-  px2 = x2;
-  py2 = y2;
 }
