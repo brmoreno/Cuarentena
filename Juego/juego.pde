@@ -17,7 +17,7 @@ void draw(){
      println("COLISON"); 
   }
   else{
-    println("NO d");
+    println("NO COLISION");
   }
 }
 
